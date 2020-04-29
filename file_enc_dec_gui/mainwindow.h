@@ -21,9 +21,7 @@ private slots:
 
     void on_btn_Gen_clicked();
 
-    void on_btn_encrypt_clicked();
-
-    void on_btn_decrypt_clicked();
+    void on_btn_enc_dec_clicked();
 
 private:
     Ui::MainWindow *ui;

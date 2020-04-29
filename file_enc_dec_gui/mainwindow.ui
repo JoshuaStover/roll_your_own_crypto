@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>792</width>
-    <height>275</height>
+    <height>299</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -226,7 +226,7 @@
         <bool>true</bool>
        </property>
        <property name="placeholderText">
-        <string> </string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -250,7 +250,7 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_6">
      <item>
-      <widget class="QPushButton" name="btn_decrypt">
+      <widget class="QPushButton" name="btn_enc_dec">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -258,20 +258,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Decrypt File Using Key</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btn_encrypt">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string>Encrypt File Using Key</string>
+        <string>Encrypt or Decrypt File Using Key</string>
        </property>
       </widget>
      </item>
